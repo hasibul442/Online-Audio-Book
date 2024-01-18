@@ -1,0 +1,42 @@
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar__logo {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.sidebar__title {
+    margin-bottom: 20px;
+}
+
+.sidebar__option {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.sidebar__option:hover {
+    background-color: #282828;
+    padding-left: 10px;
+}
+
+.sidebar__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar__item {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.sidebar__item:hover {
+    color: #1db954; /* Spotify green */
+}
